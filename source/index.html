@@ -1,11 +1,27 @@
-<!DOCTYPE html>   
-<html>   
-<body>  
-<form name="myloginform" action="/access/dummy" method="post">
-E-mail: <input type="text" name="e-mail" size="20">
-Password: <input type="password" name="password" size="20">
-<input type="submit" name="submit" value="Login">
-</form>  
-</a>
-</body>     
-</html>  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="editor.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <form action="" method="POST">
+                <h1>Login Form</h1>
+                Username <br>
+                <div class="input-box">
+                    <input type="text" name="username" placeholder="Enter username">
+                </div>
+                Password <br>
+                <div class="input-box">
+                    <input type="text" name="password" placeholder="Enter password">
+                </div>
+                <div class="button-box">
+                    <button type="submit" name="login">Login</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
