@@ -74,11 +74,22 @@ h4{
       font-weight: bold;
   }
 
-  body{
-      background-image: url(https://previews.123rf.com/images/me67kz/me67kz1701/me67kz170100126/72521404-aged-paper-background-natural-old-paper-texture-for-the-design-.jpg);
-  }
-
   @font-face{
       font-family: western;
       src: url(Señorita\ Esmeralda.otf);
+  }
+
+  #number{
+      font-size: 100px;
+      font-weight: bold;
+      text-align: center;
+      font-family: Arial;
+      margin: auto;
+  }
+
+  #letter{
+    font-family: arial;
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
   }
