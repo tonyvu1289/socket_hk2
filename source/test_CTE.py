@@ -1,6 +1,13 @@
 import socket
 import time
 #get ip
+def send404(stream):
+    header = '''HTTP/1.1 404 Not Found\nContent-Type: text/html\n\n'''
+    file_name="404.html"
+    file=open(file_name,"rb")
+    response_data=file.read()
+    stream.sendall(header.encode()+response_data)
+    stream.close()
 def sendFile_CTE(file_name,stream):
     file=open(file_name,"rb")
     while True:
@@ -31,7 +38,7 @@ server = socket.socket()
 server.bind((host,80))
 print("ip : ",host)
 server.listen(1)
-#receive message from client
+#Receive message from client
 while True:
     #set up new socket (vanish after this loop)
     stream,addr=server.accept()
@@ -65,12 +72,7 @@ while True:
             stream.close()
             continue
         else:
-            header = '''HTTP/1.1 404 Not Found\nContent-Type: text/html\n\n'''
-            file_name="404.html"
-            file=open(file_name,"rb")
-            response_data=file.read()
-            stream.sendall(header.encode()+response_data)
-            stream.close()
+            send404(stream)
         continue
     if(file_name.endswith(".html")):
         response_head+="Content-Type: text/html\n"
@@ -83,14 +85,8 @@ while True:
         f=open(file_name,"rb")
         f.close()
     except Exception as e:
-        header = '''HTTP/1.1 404 Not Found\nContent-Type: text/html\n\n'''
-        file_name="404.html"
-        file=open(file_name,"rb")
-        response_data=file.read()
-        stream.sendall(header.encode()+response_data)
-        stream.close()
+        send404(stream)
         continue
     stream.send(response_head.encode())
     sendFile_CTE(file_name,stream)
     stream.close()
-
