@@ -11,6 +11,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage{float}
+\usepackage[table,xcdraw]{xcolor}
 
 %---------------------------------------------------------
 \pagestyle{fancy}
@@ -224,13 +225,24 @@ Ngoài việc thay đổi dòng header và mặc định gửi dữ liệu file 
     \caption{Cài đặt gửi 404 response}
     \end{figure}
 \end{center}
-\begin{thebibliography}{4}
 
-
+\chapter{Phân việc}
+\begin{longtable}[c]{|l|l|l|}
+\hline
+Công việc      & Nguyễn Hoàng Anh Kiệt     & Vũ Công Duy               \\ \hline
+\endhead
+%
+Code socket    &                           & \cellcolor[HTML]{FCFF2F}x \\ \hline
+Code front-end & \cellcolor[HTML]{FCFF2F}x &                           \\ \hline
+Viết báo cáo   &                           & \cellcolor[HTML]{FCFF2F}x \\ \hline
+Làm video demo & \cellcolor[HTML]{FCFF2F}x &                           \\ \hline
+\caption{Bảng phân công}
+\label{tab:my-table}\\
+\end{longtable}
+\begin{thebibliography}{3}
 \bibitem{1} James F. Kurose. {\it Computer Networking: A Top-Down Approach}. 2016.
 \bibitem{2} David .{\it Python Network Programming}. Thu Jun 17 19:49:58 2010.
 \bibitem{3}{\it https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding}.
-\bibitem{4} Trần Đan Thư, Nguyễn Thanh Phương, Đinh Bá Tiến, Trần Minh Triết, Đặng Bình Phương. {\it Kỹ thuật lập trình,Chương 8 : Lập trình đệ quy}. Khoa Công nghệ thông tin, Trường ĐHKHTN TPHCM, 2014.
 
 \end{thebibliography}
 \end{document}

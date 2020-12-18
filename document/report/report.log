@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.28)  17 DEC 2020 22:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.28)  18 DEC 2020 14:11
 entering extended mode
 **./report.tex
 (report.tex
@@ -384,43 +384,78 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box54
 )
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\duy\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box55
+\extrarowheight=\dimen155
+\NC@list=\toks26
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box56
+)
+\everycr=\toks27
+\minrowclearance=\skip71
+)
+\rownum=\count274
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
 ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count274
-\l__pdf_internal_box=\box55
+\l__kernel_color_stack_int=\count275
+\l__pdf_internal_box=\box57
 )
 (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
-\scratchdimen=\dimen154
-\scratchbox=\box56
-\nofMPsegments=\count276
-\nofMParguments=\count277
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count278
-\MPscratchDim=\dimen155
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count276
+\scratchdimen=\dimen156
+\scratchbox=\box58
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen157
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks29
 ) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -432,7 +467,7 @@ Chapter 1.
 <mo hinh trien khai tcp.PNG, id=6, 357.58594pt x 431.36156pt>
 File: mo hinh trien khai tcp.PNG Graphic file (type png)
 <use mo hinh trien khai tcp.PNG>
-Package pdftex.def Info: mo hinh trien khai tcp.PNG  used on input line 43.
+Package pdftex.def Info: mo hinh trien khai tcp.PNG  used on input line 44.
 (pdftex.def)             Requested size: 232.4281pt x 280.38168pt.
 [1
 
@@ -448,63 +483,63 @@ This may cause the page layout to be inconsistent, however.
 File: gia tri tham so cho ham socket.PNG Graphic file (type png)
 <use gia tri tham so cho ham socket.PNG>
 Package pdftex.def Info: gia tri tham so cho ham socket.PNG  used on input line
- 62.
+ 63.
 (pdftex.def)             Requested size: 347.49872pt x 260.7746pt.
 <lenh bind.PNG, id=18, 365.11406pt x 104.64093pt>
 File: lenh bind.PNG Graphic file (type png)
 <use lenh bind.PNG>
-Package pdftex.def Info: lenh bind.PNG  used on input line 74.
+Package pdftex.def Info: lenh bind.PNG  used on input line 75.
 (pdftex.def)             Requested size: 292.09163pt x 83.71283pt.
  [3 <./gia tri tham so cho ham socket.PNG>]
 <set up socket server.PNG, id=23, 409.53pt x 124.21407pt>
 File: set up socket server.PNG Graphic file (type png)
 <use set up socket server.PNG>
-Package pdftex.def Info: set up socket server.PNG  used on input line 85.
+Package pdftex.def Info: set up socket server.PNG  used on input line 86.
 (pdftex.def)             Requested size: 327.62444pt x 99.37137pt.
 
 [4 <./lenh bind.PNG> <./set up socket server.PNG>]
 <server accept va recieve.PNG, id=29, 446.41782pt x 164.86594pt>
 File: server accept va recieve.PNG Graphic file (type png)
 <use server accept va recieve.PNG>
-Package pdftex.def Info: server accept va recieve.PNG  used on input line 111.
+Package pdftex.def Info: server accept va recieve.PNG  used on input line 112.
 (pdftex.def)             Requested size: 357.13474pt x 131.8929pt.
  [5] [6 <./server accept va recieve.PNG>]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 <client request.PNG, id=38, 1020.81375pt x 149.8097pt>
 File: client request.PNG Graphic file (type png)
 <use client request.PNG>
-Package pdftex.def Info: client request.PNG  used on input line 143.
+Package pdftex.def Info: client request.PNG  used on input line 144.
 (pdftex.def)             Requested size: 816.65211pt x 119.8479pt.
 
-Overfull \hbox (386.65211pt too wide) in paragraph at lines 143--144
+Overfull \hbox (386.65211pt too wide) in paragraph at lines 144--145
  [] 
  []
 
 [7
 
 ] [8 <./client request.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--169
+Underfull \hbox (badness 10000) in paragraph at lines 162--170
 
  []
 
 <CTE example.PNG, id=47, 365.11406pt x 178.41656pt>
 File: CTE example.PNG Graphic file (type png)
 <use CTE example.PNG>
-Package pdftex.def Info: CTE example.PNG  used on input line 180.
+Package pdftex.def Info: CTE example.PNG  used on input line 181.
 (pdftex.def)             Requested size: 292.09163pt x 142.73343pt.
 [9]
 <GET implement.PNG, id=51, 494.59781pt x 435.87843pt>
 File: GET implement.PNG Graphic file (type png)
 <use GET implement.PNG>
-Package pdftex.def Info: GET implement.PNG  used on input line 192.
+Package pdftex.def Info: GET implement.PNG  used on input line 193.
 (pdftex.def)             Requested size: 494.59659pt x 435.87737pt.
 
-Overfull \hbox (64.59659pt too wide) in paragraph at lines 192--193
+Overfull \hbox (64.59659pt too wide) in paragraph at lines 193--194
  [] 
  []
 
@@ -512,10 +547,10 @@ Overfull \hbox (64.59659pt too wide) in paragraph at lines 192--193
 <CTE implement.PNG, id=56, 758.835pt x 271.0125pt>
 File: CTE implement.PNG Graphic file (type png)
 <use CTE implement.PNG>
-Package pdftex.def Info: CTE implement.PNG  used on input line 201.
+Package pdftex.def Info: CTE implement.PNG  used on input line 202.
 (pdftex.def)             Requested size: 607.06883pt x 216.81029pt.
 
-Overfull \hbox (177.06883pt too wide) in paragraph at lines 201--202
+Overfull \hbox (177.06883pt too wide) in paragraph at lines 202--203
  [] 
  []
 
@@ -523,10 +558,10 @@ Overfull \hbox (177.06883pt too wide) in paragraph at lines 201--202
 <POST implement.PNG, id=61, 576.65437pt x 194.22563pt>
 File: POST implement.PNG Graphic file (type png)
 <use POST implement.PNG>
-Package pdftex.def Info: POST implement.PNG  used on input line 211.
+Package pdftex.def Info: POST implement.PNG  used on input line 212.
 (pdftex.def)             Requested size: 461.32411pt x 155.3807pt.
 
-Overfull \hbox (31.32411pt too wide) in paragraph at lines 211--212
+Overfull \hbox (31.32411pt too wide) in paragraph at lines 212--213
  [] 
  []
 
@@ -534,32 +569,36 @@ Overfull \hbox (31.32411pt too wide) in paragraph at lines 211--212
 <404 implement.PNG, id=67, 530.73282pt x 120.45pt>
 File: 404 implement.PNG Graphic file (type png)
 <use 404 implement.PNG>
-Package pdftex.def Info: 404 implement.PNG  used on input line 222.
+Package pdftex.def Info: 404 implement.PNG  used on input line 223.
 (pdftex.def)             Requested size: 424.58682pt x 96.3601pt.
  [13 <./POST implement.PNG> <./404 implement.PNG>]
-Overfull \hbox (46.61772pt too wide) in paragraph at lines 232--233
+Chapter 3.
+[14
+
+]
+Overfull \hbox (46.61772pt too wide) in paragraph at lines 245--246
 []\T5/cmr/m/it/14.4 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/T
 ransfer-
  []
 
-[14
+[15
 
 ] (report.aux) ) 
 Here is how much of TeX's memory you used:
- 4260 strings out of 479799
- 57054 string characters out of 2879570
- 339417 words of memory out of 3000000
- 21195 multiletter control sequences out of 15000+200000
+ 4834 strings out of 479799
+ 63726 string characters out of 2879570
+ 353059 words of memory out of 3000000
+ 21757 multiletter control sequences out of 15000+200000
  546959 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,10n,72p,622b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,72p,622b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/duy/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnbx
 12.pfb><C:/Users/duy/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:
 /Users/duy/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/duy
 /AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on report.pdf (15 pages, 335187 bytes).
+Output written on report.pdf (16 pages, 335116 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
