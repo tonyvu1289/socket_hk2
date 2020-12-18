@@ -35,7 +35,7 @@ hostname = socket.gethostname()
 host = socket.gethostbyname(hostname)
 #Set up socket and listen
 server = socket.socket()
-server.bind((host,81))
+server.bind((host,80))
 print("ip : ",host)
 server.listen(1)
 #Receive message from client
@@ -78,16 +78,6 @@ while True:
         response_head+="Content-Type: text/html\n"
     elif(file_name.endswith(".png")):
         response_head+="Content-Type: image/png\n"
-    elif(file_name.endswith(".pdf")):
-        response_head+="Content-Type: application/pdf\n"
-    elif(file_name.endswith(".mpeg")):
-        response_head+="Content-Type: video/mpeg\n"
-    elif(file_name.endswith(".ppt")):
-        response_head+="Content-Type: application/vnd.ms-powerpoint\n"
-    elif(file_name.endswith(".csv")):
-        response_head+="Content-Type: text/csv\n"
-    elif(file_name.endswith(".JPG")):
-        response_head+="Content-Type: image/jpeg\n"
     response_head +="Transfer-Encoding: chunked\n\n"
     print(response_head)
     print(response_head.encode())
